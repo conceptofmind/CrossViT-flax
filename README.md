@@ -4,6 +4,11 @@
 
 <a href="https://arxiv.org/abs/2103.14899">This paper</a> proposes to have two vision transformers processing the image at different scales, cross attending to one every so often. They show improvements on top of the base vision transformer.
 
+## In collaboration with:
+- [Dr. Phil Wang](https://github.com/lucidrains/)
+
+## Usage
+
 ```python
 import numpy
 
