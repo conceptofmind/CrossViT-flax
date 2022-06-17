@@ -1,0 +1,1 @@
+from cross_vit_flax.cross_vit_flax import CrossViT
