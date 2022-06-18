@@ -49,3 +49,43 @@ n_params_flax = sum(
 )
 print(f"Number of parameters in Flax model: {n_params_flax}")
 ```
+
+## Todo
+
+- [x] Build model
+- [ ] Implement pip installer
+- [ ] Implement huggingface streaming dataloaders
+- [ ] Implement training scripy
+
+## Author:
+- Enrico Shippole
+
+## Citations:
+```bibtex
+@misc{chen2021crossvit,
+    title   = {CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification},
+    author  = {Chun-Fu Chen and Quanfu Fan and Rameswar Panda},
+    year    = {2021},
+    eprint  = {2103.14899},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.CV}
+}
+```
+```bibtex
+@software{flax2020github,
+  author = {Jonathan Heek and Anselm Levskaya and Avital Oliver and Marvin Ritter and Bertrand Rondepierre and Andreas Steiner and Marc van {Z}ee},
+  title = {{F}lax: A neural network library and ecosystem for {JAX}},
+  url = {http://github.com/google/flax},
+  version = {0.5.0},
+  year = {2020},
+}
+```
+```bibtex
+@software{jax2018github,
+  author = {James Bradbury and Roy Frostig and Peter Hawkins and Matthew James Johnson and Chris Leary and Dougal Maclaurin and George Necula and Adam Paszke and Jake Vander{P}las and Skye Wanderman-{M}ilne and Qiao Zhang},
+  title = {{JAX}: composable transformations of {P}ython+{N}um{P}y programs},
+  url = {http://github.com/google/jax},
+  version = {0.3.13},
+  year = {2018},
+}
+```
