@@ -7,7 +7,13 @@
 ## Acknowledgement:
 I have been greatly inspired by the brilliant code of [Dr. Phil 'Lucid' Wang](https://github.com/lucidrains). Please check out his [open-source implementations](https://github.com/lucidrains) of multiple different transformer architectures and [support](https://github.com/sponsors/lucidrains) his work.
 
-## Usage
+## Research Paper:
+- https://arxiv.org/abs/2103.14899
+
+## Official repository:
+- https://github.com/IBM/CrossViT
+
+## Usage:
 
 ```python
 import numpy
@@ -49,13 +55,6 @@ n_params_flax = sum(
 )
 print(f"Number of parameters in Flax model: {n_params_flax}")
 ```
-
-## Todo
-
-- [x] Build model
-- [ ] Implement pip installer
-- [ ] Implement huggingface streaming dataloaders
-- [ ] Implement training script
 
 ## Author:
 - Enrico Shippole
